@@ -23,7 +23,7 @@
                     <option><?= $ahassItem['kode_ahass']; ?></option>
                 <?php endforeach; ?>
             </select>
-            <input type="text" class="form-control" name="kode_dealer" id="kode_dealer" required>
+            <input type="text" class="form-control" name="kode_dealer" id="kode_dealer" required hidden>
             </div>
             <div class="form-group">
                 <label for="nama_dealer">Nama Ahass</label><br>
